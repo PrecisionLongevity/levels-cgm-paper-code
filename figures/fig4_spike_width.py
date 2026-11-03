@@ -39,7 +39,7 @@ from cgmpaper.paths import FIGURES_OUT, OUTPUTS  # noqa: E402
 from cgmpaper.svgfig import F, S  # noqa: E402
 
 NAME = 'fig4_spike_width'
-TITLE = 'Fig. 4 | Spike width, not height'
+TITLE = 'Fig. 4 | Spike width, not height, tracks insulin resistance and metabolic markers at the same average glucose'
 CL = OUTPUTS / 'clinical'
 SPIKE_THRESHOLD = 30
 MIN_MEALS = 10

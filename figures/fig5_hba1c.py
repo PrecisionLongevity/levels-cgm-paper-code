@@ -1,4 +1,4 @@
-"""Fig. 5: HbA1c within its normal range compared with average CGM glucose.
+"""Fig. 5: average CGM glucose tracks insulin resistance more closely than HbA1c.
 
   a  average CGM glucose by HbA1c value (95% CI; values with >=30 participants) and the least-squares fits within
      HbA1c <5.7% and 5.7-6.4%
@@ -45,7 +45,7 @@ from cgmpaper.paths import FIGURES_OUT, OUTPUTS  # noqa: E402
 from cgmpaper.svgfig import F, S  # noqa: E402
 
 NAME = 'fig5_hba1c'
-TITLE = 'Fig. 5 | HbA1c within its normal range compared with average CGM glucose'
+TITLE = 'Fig. 5 | Average CGM glucose tracks insulin resistance more closely than HbA1c'
 MP, CL = OUTPUTS / 'metabolic', OUTPUTS / 'clinical'
 CUT_A1C, CUT_CGM = 5.7, 110.0          # HbA1c elevated: >=5.7%; CGM elevated: average glucose >=110 mg/dL
 FI_THRESHOLD = 10.0                   # fasting insulin threshold (µIU/mL) in panel d

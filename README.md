@@ -3,7 +3,7 @@
 Analysis code and source data for
 
 > Paul Ginart and Michael Loesche. **Consumer continuous glucose monitoring uncovers hidden metabolic risk in free-living
-> adults without diabetes.** *npj Digital Medicine* (citation and DOI to be added on publication).
+> adults without diabetes.** *medRxiv* preprint (citation and DOI to be added on posting).
 
 The study is a cross-sectional analysis of 62,122 consenting adults on the Levels digital-health platform (IRB protocol
 LH-001, Advarra Pro00058897). It links free-living continuous glucose monitoring (CGM), logged meals and commercial
@@ -95,11 +95,11 @@ on the secure machine (`outputs/` is ignored by git). The figure and table scrip
 | Display item | Script | Source data (`source_data/`) |
 |---|---|---|
 | Fig. 1 Cohort and linked data streams | `figures/fig1_cohort.py` | `fig1ab_streams.csv`, `fig1b_funnel.csv`, `fig1c_age_sex.csv`, `fig1d_glycemic_range.csv`, `fig1e_distributions.csv`, `fig1e_histograms.csv` |
-| Fig. 2 Week-to-week reliability | `figures/fig2_reliability.py` | `fig2b_reliability_by_gap.csv`, `fig2c_reliability_by_days_of_wear.csv` |
-| Fig. 3 Average glucose and insulin resistance | `figures/fig3_average_glucose.py` | `fig3a_homa_by_quartile.csv`, `fig3b_bmi.csv`, `fig3c_average_glucose_vs_hba1c.csv`, `fig3d_unadjusted.csv` |
-| Fig. 4 Spike width at the same average glucose | `figures/fig4_spike_width.py` | `fig4a_spike_profile.csv`, `fig4a_cohort_medians.csv`, `fig4b_same_average_glucose.csv`, `fig4c_spike_measures_by_marker.csv`, `fig4d_spike_width_adjustments.csv` |
-| Fig. 5 HbA1c within its normal range | `figures/fig5_hba1c.py` | `fig5a_hba1c_glucose.csv`, `fig5b_correlations.csv`, `fig5c_variance_explained.csv`, `fig5d_groups.csv`, `fig5e_group_contrast.csv` |
-| Fig. 6 Meal responses and carbohydrate sensitivity | `figures/fig6_meals.py` | `fig6a_example.csv`, `fig6b_same_food_agreement.csv`, `fig6c_participants.csv`, `fig6d_slope_histogram.csv`, `fig6d_summary.csv`, `fig6e_insulin_by_quintile.csv`, `fig6e_per_sd.csv` |
+| Fig. 2 How long to wear a sensor | `figures/fig2_reliability.py` | `fig2b_reliability_by_gap.csv`, `fig2c_reliability_by_days_of_wear.csv` |
+| Fig. 3 Average glucose tracks insulin resistance better than other CGM markers | `figures/fig3_average_glucose.py` | `fig3a_homa_by_quartile.csv`, `fig3b_bmi.csv`, `fig3c_average_glucose_vs_hba1c.csv`, `fig3d_unadjusted.csv` |
+| Fig. 4 Spike width, not height, tracks insulin resistance and metabolic markers at the same average glucose | `figures/fig4_spike_width.py` | `fig4a_spike_profile.csv`, `fig4a_cohort_medians.csv`, `fig4b_same_average_glucose.csv`, `fig4c_spike_measures_by_marker.csv`, `fig4d_spike_width_adjustments.csv` |
+| Fig. 5 Average CGM glucose tracks insulin resistance more closely than HbA1c | `figures/fig5_hba1c.py` | `fig5a_hba1c_glucose.csv`, `fig5b_correlations.csv`, `fig5c_variance_explained.csv`, `fig5d_groups.csv`, `fig5e_group_contrast.csv` |
+| Fig. 6 Reliability of food responses and carbohydrate sensitivity | `figures/fig6_meals.py` | `fig6a_example.csv`, `fig6b_same_food_agreement.csv`, `fig6c_participants.csv`, `fig6d_slope_histogram.csv`, `fig6d_summary.csv`, `fig6e_insulin_by_quintile.csv`, `fig6e_per_sd.csv` |
 | Table 1 Cohort characteristics | `tables/table1_cohort.py` | `table1_cohort.csv` |
 | Supplementary Fig. 1 GMI calibration | `figures/sfig1_gmi_calibration.py` | `sfig1_gmi_calibration.csv` |
 | Supplementary Fig. 2 Discordant groups | `figures/sfig2_discordant_groups.py` | `sfig2_discordant_groups.csv` |

@@ -41,7 +41,7 @@ from cgmpaper import cli, source_data, tables  # noqa: E402
 from cgmpaper.paths import OUTPUTS, REPO, TABLES_OUT, database_path  # noqa: E402
 
 NAME = 'stable5_cgm_measures'
-TITLE = 'Supplementary Table 5 | CGM measures: definitions and cohort values'
+TITLE = 'Supplementary Table 5 | Continuous glucose measures: definitions, units, and distributions'
 MIN_MEALS_CARB = 30
 
 # measure, definition, unit, population label, decimals

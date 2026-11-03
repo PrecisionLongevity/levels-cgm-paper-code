@@ -33,7 +33,7 @@ from cgmpaper.paths import FIGURES_OUT, OUTPUTS  # noqa: E402
 from cgmpaper.svgfig import F, S  # noqa: E402
 
 NAME = 'fig2_reliability'
-TITLE = 'Fig. 2 | Week-to-week agreement of CGM measures'
+TITLE = 'Fig. 2 | How long to wear a sensor'
 REL = OUTPUTS / 'reliability'
 # (key, label, colour)
 MEASURES = [('mean_glucose', 'Average glucose', sd.CATEGORICAL[0]), ('sd_glucose', 'SD', sd.CATEGORICAL[2]),

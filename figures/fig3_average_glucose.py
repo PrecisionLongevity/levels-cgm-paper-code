@@ -1,4 +1,4 @@
-"""Fig. 3: average glucose tracks insulin resistance and other metabolic markers.
+"""Fig. 3: average glucose tracks insulin resistance better than other CGM markers.
 
   a  share with HOMA-IR >=2.5 by quartile of average glucose (Wilson 95% CI), and the geometric-mean HOMA-IR ratio of
      the top vs the bottom quartile
@@ -37,7 +37,7 @@ from cgmpaper.paths import FIGURES_OUT, OUTPUTS  # noqa: E402
 from cgmpaper.svgfig import F, S  # noqa: E402
 
 NAME = 'fig3_average_glucose'
-TITLE = 'Fig. 3 | Average glucose tracks insulin resistance and metabolic markers'
+TITLE = 'Fig. 3 | Average glucose tracks insulin resistance better than other CGM markers'
 UIM = OUTPUTS / 'metabolic/unadjusted_insulin_markers'
 CL = OUTPUTS / 'clinical'
 HOMA_THRESHOLD = 2.5

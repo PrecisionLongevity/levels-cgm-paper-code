@@ -1,4 +1,4 @@
-"""Fig. 6: meal responses and carbohydrate sensitivity.
+"""Fig. 6: reliability of food responses and carbohydrate sensitivity.
 
   a  one participant's repeated meals of the same food (glucose change from the pre-meal level) and their average
   b  agreement (Pearson r, 95% CI) between two averages of k meals of the same food in the same person, first k vs next
@@ -49,7 +49,7 @@ from cgmpaper.paths import FIGURES_OUT, OUTPUTS  # noqa: E402
 from cgmpaper.svgfig import F, S, wrap  # noqa: E402
 
 NAME = 'fig6_meals'
-TITLE = 'Fig. 6 | Meal responses and carbohydrate sensitivity'
+TITLE = 'Fig. 6 | Reliability of food responses and carbohydrate sensitivity'
 EXEMPLARS = OUTPUTS / 'exemplars'
 QSP = OUTPUTS / 'meal_populations'
 SAME_FOOD = OUTPUTS / 'meals/same_food_direct/same_food_direct_curve.csv'
