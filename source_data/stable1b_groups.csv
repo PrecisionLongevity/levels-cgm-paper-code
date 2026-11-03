@@ -1,0 +1,29 @@
+marker,quantity,group,value,ci_low,ci_high,n_participants
+Fasting insulin,geometric mean,Both normal,4.918315045335556,,,3692
+Fasting insulin,geometric mean,CGM elevated only,6.862163543786355,,,1087
+Fasting insulin,geometric mean,HbA1c elevated only,5.722958027299312,,,1100
+Fasting insulin,geometric mean,Both elevated,8.961378512385647,,,1011
+Fasting insulin,"% difference, CGM elevated only vs HbA1c elevated only",,19.90588627512022,13.34226936472176,26.84960027716803,
+HOMA-IR,geometric mean,Both normal,1.1766427644412965,,,683
+HOMA-IR,geometric mean,CGM elevated only,1.66054631764617,,,201
+HOMA-IR,geometric mean,HbA1c elevated only,1.3968413711237766,,,162
+HOMA-IR,geometric mean,Both elevated,2.2427338795715235,,,146
+HOMA-IR,"% difference, CGM elevated only vs HbA1c elevated only",,18.878660954195524,3.008835723002501,37.193435214284065,
+Triglycerides,geometric mean,Both normal,70.05666103237743,,,4140
+Triglycerides,geometric mean,CGM elevated only,87.86889103956976,,,1280
+Triglycerides,geometric mean,HbA1c elevated only,74.33662440480582,,,1251
+Triglycerides,geometric mean,Both elevated,97.46101967387683,,,1133
+Triglycerides,"% difference, CGM elevated only vs HbA1c elevated only",,18.204037031696373,14.196110059910616,22.352629728459465,
+hsCRP,geometric mean,Both normal,0.8652209005446875,,,686
+hsCRP,geometric mean,CGM elevated only,1.0986432526957894,,,228
+hsCRP,geometric mean,HbA1c elevated only,0.863593353314704,,,140
+hsCRP,geometric mean,Both elevated,1.532437200842155,,,117
+hsCRP,"% difference, CGM elevated only vs HbA1c elevated only",,27.2176596170987,-0.8283481537594617,63.19515322326972,
+"Fasting insulin >=10 µIU/mL, %",percent above threshold,Both normal,12.56771397616468,11.53721391031918,13.676028302674323,
+"Fasting insulin >=10 µIU/mL, %",percent above threshold,CGM elevated only,27.50689972401104,24.934984440507023,30.237236412864597,
+"Fasting insulin >=10 µIU/mL, %",percent above threshold,HbA1c elevated only,19.636363636363637,17.3962038559363,22.087859307113582,
+"Fasting insulin >=10 µIU/mL, %",percent above threshold,Both elevated,44.51038575667656,41.47346070790785,47.58887025667567,
+"HOMA-IR >=2.5, %",percent above threshold,Both normal,11.273792093704246,9.11521847872305,13.865551944149749,
+"HOMA-IR >=2.5, %",percent above threshold,CGM elevated only,24.37810945273632,18.95919964205113,30.758010637065265,
+"HOMA-IR >=2.5, %",percent above threshold,HbA1c elevated only,16.049382716049383,11.194179307511956,22.47741235466057,
+"HOMA-IR >=2.5, %",percent above threshold,Both elevated,44.52054794520548,36.70225125367676,52.61979611163475,

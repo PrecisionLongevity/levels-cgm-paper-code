@@ -1,0 +1,13 @@
+measure,definition,unit,summarized_over,n,n_unit,median,q1,q3,decimals
+Average glucose,average of the observed 15-minute cells of the record,mg/dL,whole record,49876,participants,106.70208294701376,100.71006008804515,113.38706329906942,1
+SD,standard deviation of the same cells (spread around the average),mg/dL,whole record,49692,participants,16.563671991220165,14.434584758865443,19.16113377458213,1
+CV,"SD divided by the average, × 100",%,whole record,49692,participants,15.586053085772729,13.784646985876577,17.646226594631372,1
+MODD,mean absolute difference between consecutive days at the same clock time,mg/dL,lab-linked panel,7930,participants,12.853495639225056,11.16908217649342,14.938492595541224,1
+MAGE,mean amplitude of glycemic excursions: mean of rises and falls larger than 1 SD (moving-average algorithm; Methods),mg/dL,lab-linked panel,7930,participants,35.880078906717955,31.191464367664715,41.732855179098664,1
+Time 70–140 mg/dL,share of observed time with glucose between 70 and 140 mg/dL,% of time,whole record,49876,participants,94.64159601874942,90.79998545654227,96.82174830933192,1
+Spike frequency,spikes per eligible day; a spike is a peak ≥30 mg/dL above the lowest value of the preceding 90 min,spikes per day,lab-linked panel,7914,participants,4.015058876811594,2.9166666666666665,5.25,1
+Spike height,a participant's mean rise across their spikes: peak minus its preceding 90-min low,mg/dL,lab-linked panel,7914,participants,43.266281310211944,41.03044052136611,45.965312079030085,1
+Spike width,"minutes above half the rise of each spike, participant mean over resolved spikes",min,lab-linked panel,7907,participants,65.93023255813954,60.065618112602685,73.05320150659134,1
+Meal peak rise,highest value 0–120 min after a logged meal minus the pre-meal baseline,mg/dL,isolated logged meals,751450,meals,22.0,11.666666666666671,36.33333333333333,0
+2-h iAUC,"area between the curve and the baseline, 0–120 min, counting only area above it",mg/dL·min,isolated logged meals,751450,meals,979.9999999999994,380.0,1895.0000000000005,0
+Carbohydrate sensitivity,"a person's peak rise per gram of carbohydrate, adjusted for fiber, fat, protein",mg/dL per g,≥30 logged meals,11332,participants,0.33043667939862514,0.2016264140764882,0.4893109325557762,2

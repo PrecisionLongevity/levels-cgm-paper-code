@@ -1,0 +1,3 @@
+line,intercept_pct,slope_pct_per_mg_dl,slope_ci_low,slope_ci_high,n_participants,glucose_from_mg_dl,glucose_to_mg_dl
+"This cohort, least-squares fit of HbA1c on average glucose",2.8592466581667613,0.025115771689906478,0.022963670754336207,0.027171503756374487,8226.0,80.0,160.0
+Published GMI (Bergenstal et al. 2018),3.31,0.02392,,,,80.0,160.0

@@ -1,0 +1,12 @@
+quantity,value
+participants with a slope,11523.0
+10th percentile slope,0.10054114591400005
+median slope,0.33203960950563255
+90th percentile slope,0.6760922841323942
+participants outside the 0.5th-99.5th percentile axis,101.0
+"odd/even agreement, Pearson r",0.4274142101634032
+"odd/even r, 95% CI low",0.4000939239745409
+"odd/even r, 95% CI high",0.4553782895599992
+participants in the odd/even comparison,6553.0
+minimum meals per half,30.0
+odd/even pairs outside the axes,57.0

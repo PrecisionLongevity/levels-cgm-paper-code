@@ -1,0 +1,3 @@
+marker,n_participants,pct_per_sd,ci_low,ci_high,n_participants_with_slopes_near_lab_draw
+fasting_insulin,3010,-1.196913216669604,-3.5220212197378364,1.184229617292476,3489
+homa_ir,712,-3.9923171367287735,-8.698965899525268,0.9569635173117595,3489

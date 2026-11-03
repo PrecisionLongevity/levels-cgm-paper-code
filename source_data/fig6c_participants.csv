@@ -1,0 +1,4 @@
+participant,slope_mg_dl_per_g,n_meals
+10th percentile slope,0.1,133
+median slope,0.33,150
+90th percentile slope,0.67,97

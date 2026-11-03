@@ -1,0 +1,11 @@
+width_measure,compared_at_the,marker,n_participants,pct_per_sd,ci_low,ci_high
+CGM spike width,same average glucose,fasting_insulin,3484,8.106551600863888,5.803680655283361,10.459545704345462
+CGM spike width,same average glucose,homa_ir,841,5.384766848640865,0.640471331169401,10.352713345279897
+Width of responses to logged meals,same average glucose,fasting_insulin,3484,8.029692273145471,5.81571515740873,10.289992325524633
+Width of responses to logged meals,same average glucose,homa_ir,841,5.479745403878478,0.6867341263302684,10.500919381369656
+"Width of responses to logged meals, adjusted for meal content and context",same average glucose,fasting_insulin,3484,7.309916409093575,4.998325833052952,9.672397806000577
+"Width of responses to logged meals, adjusted for meal content and context",same average glucose,homa_ir,841,4.574986777243373,-0.3586847213099098,9.75294564181104
+CGM spike width,"same average glucose, both widths in one model",fasting_insulin,3484,5.084955716662631,2.3617660921597894,7.880591939286163
+CGM spike width,"same average glucose, both widths in one model",homa_ir,841,3.2964695477056383,-2.1244153408742195,9.017592673202037
+Width of responses to logged meals,"same average glucose, both widths in one model",fasting_insulin,3484,4.848883218620359,2.1962345701669106,7.570385136293911
+Width of responses to logged meals,"same average glucose, both widths in one model",homa_ir,841,3.5081531853268455,-2.0210532231578537,9.349387070257652

@@ -1,0 +1,22 @@
+quantity,value
+consenting participants,62122.0
+median consented interval (days),772.0702656423618
+participants with cgm,49876.0
+participants with behavior,53595.0
+participants with labs,12307.0
+participants with food records,50170.0
+participants with exercise records,46670.0
+participants with steps records,42103.0
+participants with sleep records,34144.0
+participants with weight records,31822.0
+pairwise overlap cgm_behavior,48828.0
+pairwise overlap cgm_labs,11009.0
+pairwise overlap behavior_labs,11982.0
+region cgm_only,963.0
+region behavior_only,3709.0
+region labs_only,240.0
+region cgm_behavior,37904.0
+region cgm_labs,85.0
+region behavior_labs,1058.0
+region all_three,10924.0
+region none,7239.0

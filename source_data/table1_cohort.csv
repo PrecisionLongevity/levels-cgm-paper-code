@@ -1,0 +1,19 @@
+characteristic,statistic,value,q25,q75,n
+Participants,count,7930.0,,,
+Age decade: ≤20s,percent,1.434920634920635,,,7875
+Age decade: 30s,percent,14.819047619047618,,,7875
+Age decade: 40s,percent,27.54285714285714,,,7875
+Age decade: 50s,percent,27.73333333333333,,,7875
+Age decade: 60s,percent,20.584126984126986,,,7875
+Age decade: ≥70s,percent,7.885714285714286,,,7875
+Female,percent,55.7968253968254,,,7875
+"BMI, kg/m²",median,26.060520496926877,23.17754511026955,29.615192323594375,4812
+"HbA1c, %",median,5.5,5.3,5.7,7930
+"CGM average glucose, mg/dL",median,105.61890638839007,100.04616637130611,111.6036100207885,7930
+Dense CGM days within ±90 d,median,44.0,27.0,72.0,7930
+"Fasting insulin, µIU/mL",median,5.599999905,3.599999905,8.874999762000002,6890
+HOMA-IR,median,1.2888889101111112,0.8691358024691358,2.0809259878672837,1192
+"Fasting glucose, mg/dL",median,91.0,85.0,98.0,2076
+"Triglycerides, mg/dL",median,73.0,57.0,101.0,7804
+HbA1c <5.7%,percent,69.55863808322825,,,7930
+Average glucose ≥110 mg/dL,percent,30.895334174022697,,,7930

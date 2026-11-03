@@ -1,0 +1,27 @@
+outputs/
+# Never commit study data
+*.duckdb
+*.duckdb.wal
+*.parquet
+data/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# Other data and cache formats (participant-level outputs must never be committed)
+*.pkl
+*.pickle
+*.feather
+*.arrow
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.sqlite
+*.db
+*.rds
+*.RData
+*.json
+*.log
+.env
+.env.*
