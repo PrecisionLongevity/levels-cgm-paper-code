@@ -3,7 +3,7 @@
 Analysis code and source data for
 
 > Paul Ginart and Michael Loesche. **Consumer continuous glucose monitoring uncovers hidden metabolic risk in free-living
-> adults without diabetes.** *medRxiv* preprint (citation and DOI to be added on posting).
+> adults without diabetes.** *medRxiv* (2026). https://doi.org/10.64898/2026.11.03.26367126
 
 The study is a cross-sectional analysis of 62,122 consenting adults on the Levels digital-health platform (IRB protocol
 LH-001, Advarra Pro00058897). It links free-living continuous glucose monitoring (CGM), logged meals and commercial
